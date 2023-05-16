@@ -1,149 +1,141 @@
 body {
-  background-color: "dark";
-}
-
-.list-group-horizontal .list-group-item {
-  border: none;
-}
-
-.counter {
-  width: 10px;
-  height: 10px;
-  margin: 10px 11px;
-  font-family: "Poppins", sans-serif;
-}
-
-.card {
-  border: none;
-}
-
-.card-group .card {
-  height: 100%;
-}
-
-.contact-background {
-  padding-left: 100px;
-  padding-top: 40px;
-  font-family: "Poppins", sans-serif;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  background-color: hsla(234, 100%, 69%, 1);
-  background-image: url("Asset/contact-bg-d.png");
-  border-radius: 60px 0 0 0;
-}
-
-#about {
-  font-family: "Poppins", sans-serif;
-  background: url("Asset/BgImage.png") no-repeat;
-  background-size: 100% 100%;
-  margin-bottom: 12%;
-  border-bottom-left-radius: 80px;
-}
-
-#projects {
-  border-radius: 20px;
-}
-
-.list-group li {
-  font-size: 17px;
-  padding: 4px 10px;
-  border-radius: 8px;
-  background-color: hsl(240, 100%, 96%);
-  cursor: pointer;
-  margin-right: 10px;
-  text-align: center;
-  color: hsl(234, 100%, 69%);
-  font-family: "Poppins", sans-serif;
-}
-
-.card-title {
-  text-align: left;
-  font-weight: 700;
-  font-weight: bold;
-  font-size: 35px;
-  margin: 7px;
-  font-family: "Poppins", sans-serif;
-  color: hsl(218, 54%, 20%);
-}
-
-.HeaderTitle {
-  align-items: center;
-  margin: 1px;
-}
-
-.tonic-title {
-  margin: 0;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 16px;
-  font-family: "Poppins", sans-serif;
-  color: hsl(218, 31%, 30%);
-}
-
-.TonicEnd {
-  margin: 0 10px;
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 0.2;
-  line-height: 16px;
-  color: hsl(218, 14%, 54%);
-}
-
-/* Transation and Animation */
-.tonic-image {
-  width: 95%;
-  border-radius: 8px;
-  padding-left: 24px;
-  object-fit: contain;
-  transition: transform 0.3s ease;
-}
-
-.tonic-image:hover {
-  transform: scale(1.1);
-}
-
-@keyframes rotateOnce {
-  0% {
-    transform: rotate(0deg);
+    background-color: "dark";
+  }
+  .list-group-horizontal .list-group-item {
+    border: none;
+  }
+  .list-group-horizontal .list-group-item {
+    border: none;
+  }
+  .counter {
+    width: 10px;
+    height: 10px;
+    margin: 10px 11px;
+    font-family: "Poppins", sans-serif;
+  }
+  .card-group .card {
+    height: 100%;
+  }
+  .contact-background {
+    padding-left: 100px;
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-color: hsla(234, 100%, 69%, 1);
+    background-image: url("Asset/contact-bg-d.png");
+    border-radius: 60px 0 0 0;
+  }
+  #about {
+    font-family: "Poppins", sans-serif;
+    background: url("Asset/BgImage.png") no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 12%;
+    border-bottom-left-radius: 80px;
+  }
+  .card {
+    border: none;
+  }
+  #projects {
+    border-radius: 20px;
   }
 
-  100% {
-    transform: rotate(360deg);
+  .list-group li {
+    font-size: 17px;
+    padding: 4px 10px;
+    border-radius: 8px;
+    background-color: hsl(240, 100%, 96%);
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+    color: hsl(234, 100%, 69%);
+    font-family: "Poppins", sans-serif;
   }
-}
+  .card-title {
+    text-align: left;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 7px;
+    font-family: "Poppins", sans-serif;
+    color: hsl(218, 54%, 20%);
+  }
+  .HeaderTitle {
+    align-items: center;
+    margin: 1px;
+  }
+  .tonic-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    font-family: "Poppins", sans-serif;
+    color: hsl(218, 31%, 30%);
+  }
 
-.form-group {
-  position: relative;
-  margin-bottom: 20px;
-}
+  .TonicEnd {
+    margin: 0 10px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 0.2;
+    line-height: 16px;
+    color: hsl(218, 14%, 54%);
+  }
+  /* Transation and Animation */
+  .tonic-image {
+    width: 95%;
+    border-radius: 8px;
+    padding-left: 24px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
 
-.form-group::after {
-  content: attr(data-instructions);
-  position: absolute;
-  left: 0;
-  transition: transform 0.3s ease;
-}
+  .tonic-image:hover {
+    transform: scale(1.1);
+  }
 
-.form-group:hover::after {
-  transform: translateX(10px);
-}
+  @keyframes rotateOnce {
+    0% {
+      transform: rotate(0deg);
+    }
 
-.form-group label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: hsl(0, 0%, 100%);
-  font-size: 17px;
-  font-family: "Poppins", sans-serif;
-  transition: margin-left 0.3s ease-in-out;
-}
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
-.form-group label:hover {
-  margin-left: 5px;
-}
+  .form-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
 
-.logo {
-  text-transform: lowercase;
-  animation: rotateOnce 1s linear;
-}
+  .form-group::after {
+    content: attr(data-instructions);
+    position: absolute;
+    left: 0;
+    transition: transform 0.3s ease;
+  }
+
+  .form-group:hover::after {
+    transform: translateX(10px);
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: hsl(0, 0%, 100%);
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    transition: margin-left 0.3s ease-in-out;
+  }
+
+  .form-group label:hover {
+    margin-left: 5px;
+  }
+
+  .logo {
+    text-transform: lowercase;
+    animation: rotateOnce 1s linear;
+  }

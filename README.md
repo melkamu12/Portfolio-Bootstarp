@@ -142,6 +142,8 @@ Example command:
 👤**Author 2**
 
 - GitHub: [@DanielAD10](https://github.com/DanielAD10)
+- Twitter: [@Daniel83948350](https://twitter.com/Daniel83948350)
+- LinkedIn: [daniel-adams-8856a1239/](https://www.linkedin.com/in/daniel-adams-8856a1239/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
